@@ -1,0 +1,26 @@
+{
+  "Parameters": {
+    "xdes": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+    "u0":   [0.0, 0.0, 0.0, 0.0],              
+    "umax": [1.0, 1.0, 1.0, 1.6],
+    "umin": [-1.0, -1.0, -1.0, 0.0],
+    "udes": [0.0, 0.0, 0.0, 0.0],
+    "Thor": 5,
+    "Tmax": 1e8,
+    "Tmin": 1e-8,
+    "dt":   0.1,
+    "t0":   0.0
+  },
+  "Options": {
+    "Nhor": 26,                              
+    "IntegralCost": "on",
+    "TerminalCost": "off",
+
+    "OptimControl": "on",
+    "OptimTime": "off",
+    "EqualityConstraints": "off",
+    "InequalityConstraints": "on",
+    "TerminalEqualityConstraints": "off",
+    "TerminalInequalityConstraints": "on"
+  }
+}
